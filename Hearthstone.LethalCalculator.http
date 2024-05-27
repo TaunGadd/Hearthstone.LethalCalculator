@@ -1,0 +1,6 @@
+@Hearthstone.LethalCalculator_HostAddress = http://localhost:5283
+
+GET {{Hearthstone.LethalCalculator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
