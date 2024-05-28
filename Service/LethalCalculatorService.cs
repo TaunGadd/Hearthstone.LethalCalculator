@@ -1,4 +1,4 @@
-﻿using Hearthstone.LethalCalculator.Models.domain;
+﻿using Hearthstone.LethalCalculator.Models.Domain;
 using Hearthstone.LethalCalculator.Service.Interfaces;
 
 namespace Hearthstone.LethalCalculator.Service;

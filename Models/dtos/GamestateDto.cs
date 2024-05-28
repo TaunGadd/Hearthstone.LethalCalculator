@@ -1,4 +1,4 @@
-﻿namespace Hearthstone.LethalCalculator.Models.dtos;
+﻿namespace Hearthstone.LethalCalculator.Models.Dtos;
 
 public class GamestateDto
 {
