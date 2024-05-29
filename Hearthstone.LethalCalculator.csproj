@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Enums\" />
-    <Folder Include="Repositories\" />
+    <Folder Include="Models\Domain\Abilities\Spells\" />
   </ItemGroup>
 
 </Project>

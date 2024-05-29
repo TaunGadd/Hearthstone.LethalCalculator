@@ -1,6 +1,6 @@
-﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPower
+﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPowers
 {
-    public class RaiseDead : HeroPower
+    public class GhoulCharge : HeroPower
     {
         public override void Perform()
         {

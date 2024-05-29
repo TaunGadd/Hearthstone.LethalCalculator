@@ -1,5 +1,5 @@
 ﻿using Hearthstone.LethalCalculator.Application.Interfaces;
-using Hearthstone.LethalCalculator.Models.dtos;
+using Hearthstone.LethalCalculator.Models.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hearthstone.LethalCalculator.Controllers;

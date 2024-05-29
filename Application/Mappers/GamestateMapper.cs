@@ -1,5 +1,5 @@
-﻿using Hearthstone.LethalCalculator.Models.domain;
-using Hearthstone.LethalCalculator.Models.dtos;
+﻿using Hearthstone.LethalCalculator.Models.Domain;
+using Hearthstone.LethalCalculator.Models.Dtos;
 
 namespace Hearthstone.LethalCalculator.Application.Mappers;
 

@@ -1,4 +1,4 @@
-﻿using Hearthstone.LethalCalculator.Models.Enums;
+﻿using Hearthstone.LethalCalculator.Models.Domain.Abilities.Passives;
 
 namespace Hearthstone.LethalCalculator.Models.Domain
 {
@@ -6,6 +6,6 @@ namespace Hearthstone.LethalCalculator.Models.Domain
     {
         public int Damage { get; set; }
         public int Durability { get; set; }
-        public List<Affect> Affects { get; set; } = new List<Affect>();
+        public List<IPassive> Passives { get; set; } = new List<IPassive>();
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPower;
+﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPowers;
 
 public abstract class HeroPower
 {

@@ -1,8 +1,8 @@
-﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPower
+﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.HeroPowers
 {
-    public class DemonClaws : HeroPower
+    public class DemonicBlast : HeroPower
     {
-        public DemonClaws()
+        public DemonicBlast()
         {
             Cost = 1;
         }

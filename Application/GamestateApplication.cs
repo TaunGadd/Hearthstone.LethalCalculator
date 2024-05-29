@@ -1,6 +1,6 @@
 ﻿using Hearthstone.LethalCalculator.Application.Interfaces;
 using Hearthstone.LethalCalculator.Application.Mappers;
-using Hearthstone.LethalCalculator.Models.dtos;
+using Hearthstone.LethalCalculator.Models.Dtos;
 using Hearthstone.LethalCalculator.Service.Interfaces;
 
 namespace Hearthstone.LethalCalculator.Application;
