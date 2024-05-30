@@ -2,7 +2,7 @@
 
 namespace Hearthstone.LethalCalculator.Models.Domain.Characters.Classes
 {
-    public class DemonHunter : IClass
+    public class DemonHunter : Class
     {
     }
 }

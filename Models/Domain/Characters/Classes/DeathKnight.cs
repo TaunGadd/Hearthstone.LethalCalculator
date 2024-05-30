@@ -2,7 +2,7 @@
 
 namespace Hearthstone.LethalCalculator.Models.Domain.Characters.Classes
 {
-    public class DeathKnight : IClass
+    public class DeathKnight : Class
     {
     }
 }
