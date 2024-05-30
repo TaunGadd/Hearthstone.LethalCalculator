@@ -5,7 +5,7 @@ namespace Hearthstone.LethalCalculator.Service;
 
 public class LethalCalculatorService : ILethalCalculatorService
 {
-    public bool IsLethal(Gamestate gamestate)
+    public bool IsLethal(GameState gamestate)
     {
         throw new NotImplementedException();
     }

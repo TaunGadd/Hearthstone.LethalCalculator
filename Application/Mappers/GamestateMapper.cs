@@ -3,17 +3,17 @@ using Hearthstone.LethalCalculator.Models.Dtos;
 
 namespace Hearthstone.LethalCalculator.Application.Mappers;
 
-public class GamestateMapper : IMapper<GamestateDto, Gamestate>
+public class GamestateMapper : IMapper<GamestateDto, GameState>
 {
-    public Gamestate Map(GamestateDto dto)
+    public GameState Map(GamestateDto dto)
     {
-        return new Gamestate
+        return new GameState
         {
             // TODO
         };
     }
 
-    public GamestateDto Map(Gamestate domain)
+    public GamestateDto Map(GameState domain)
     {
         return new GamestateDto
         {

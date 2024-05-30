@@ -2,5 +2,6 @@
 
 public class GamestateDto
 {
-    // TODO
+    public string SelfClass { get; set; }
+    public string OpponentClass { get; set; }
 }

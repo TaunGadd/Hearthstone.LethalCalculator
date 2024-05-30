@@ -1,13 +1,13 @@
-﻿using Hearthstone.LethalCalculator.Models.Domain.Characters.Classes;
+﻿using Hearthstone.LethalCalculator.Models.Domain.Characters;
+using Hearthstone.LethalCalculator.Models.Domain.Characters.Minions;
 
 namespace Hearthstone.LethalCalculator.Models.Domain;
 
-public class Gamestate
+public class GameState
 {
-    // TODO
-    private void dothing()
-    {
-        var dk = new DeathKnight();
-        dk.HeroPower.Perform();
-    }
+    public Player Self { get; set; }
+    public Player Opponent { get; set; }
+
+    public List<Minion> MyMinions { get; set; }
+    public List<Minion> OpponentMinions { get; set; }
 }
