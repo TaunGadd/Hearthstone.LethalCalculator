@@ -4,7 +4,7 @@ using Hearthstone.LethalCalculator.Models.Enums;
 
 namespace Hearthstone.LethalCalculator.Models.Domain.Characters
 {
-    public class Player
+    public class Player : Card
     {
         public BattleClass BattleClass { get; set; }
         public int CurrentHealth { get; set; }
@@ -15,7 +15,12 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Characters
         public List<Effect> Effects { get; set; } = new List<Effect>();
 
 
-        public int HandSize { get; set; }
-        public int CardsInDeck { get; set; }
+        public List<Card> Hand { get; set; }
+        public List<Card> Deck { get; set; }
+
+        public override void Play()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

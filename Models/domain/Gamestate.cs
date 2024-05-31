@@ -1,5 +1,4 @@
 ﻿using Hearthstone.LethalCalculator.Models.Domain.Characters;
-using Hearthstone.LethalCalculator.Models.Domain.Characters.Minions;
 
 namespace Hearthstone.LethalCalculator.Models.Domain;
 

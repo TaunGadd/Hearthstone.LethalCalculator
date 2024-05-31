@@ -2,6 +2,7 @@
 {
     public class Deathrattle : Effect, ITriggerableEffect
     {
+        public override string Name => nameof(Deathrattle);
         private readonly Effect _effect;
 
         public Deathrattle(Effect effect)

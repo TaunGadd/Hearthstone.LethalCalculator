@@ -1,7 +1,10 @@
 ﻿namespace Hearthstone.LethalCalculator.Models.Dtos;
 
-public class GamestateDto
+public class GameStateDto
 {
-    public string SelfClass { get; set; }
-    public string OpponentClass { get; set; }
+    public PlayerDto Self { get; set; }
+    public PlayerDto Opponent { get; set; }
+
+    public List<MinionDto> MyMinions { get; set; }
+    public List<MinionDto> OpponentMinions { get; set; }
 }

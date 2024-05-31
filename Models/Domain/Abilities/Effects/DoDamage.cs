@@ -2,16 +2,9 @@
 {
     public class DoDamage : Effect
     {
-        private readonly int _damage;
-        private readonly int[] _targetIds;
+        public override string Name => nameof(DoDamage);
 
-        public DoDamage(int[] target, int damage)
-        {
-            _damage = damage;
-            _targetIds = target;
-        }
-
-        public void Trigger()
+        public void Trigger(int[] target, int damage)
         {
             throw new NotImplementedException();
         }

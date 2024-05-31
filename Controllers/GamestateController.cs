@@ -16,7 +16,7 @@ public class GamestateController : ControllerBase
     }
 
     [HttpPost(Name = "IsLethal")]
-    public IActionResult IsLethal([FromBody] GamestateDto dto)
+    public IActionResult IsLethal([FromBody] GameStateDto dto)
     {
         // TODO handle errors
         var result = _gamestateApplication.IsLethal(dto);

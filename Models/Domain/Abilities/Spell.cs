@@ -3,7 +3,7 @@ using Hearthstone.LethalCalculator.Models.Enums;
 
 namespace Hearthstone.LethalCalculator.Models.Domain.Abilities
 {
-    public class Spell
+    public class Spell : Card
     {
         public BattleClass BattleClass { get; set; }
         public string Name { get; set; }
@@ -12,6 +12,11 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Abilities
         public void Cast()
         {
             throw new NotImplementedException();
+        }
+
+        public override void Play()
+        {
+            Cast();
         }
     }
 }

@@ -4,5 +4,5 @@ namespace Hearthstone.LethalCalculator.Application.Interfaces;
 
 public interface IGamestateApplication
 {
-    bool IsLethal(GamestateDto dto);
+    bool IsLethal(GameStateDto dto);
 }

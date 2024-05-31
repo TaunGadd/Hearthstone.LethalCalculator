@@ -1,9 +1,9 @@
 ﻿using Hearthstone.LethalCalculator.Models.Domain.Abilities.Effects;
 using Hearthstone.LethalCalculator.Models.Enums;
 
-namespace Hearthstone.LethalCalculator.Models.Domain.Characters.Minions
+namespace Hearthstone.LethalCalculator.Models.Domain.Characters
 {
-    public class Minion
+    public class Minion : Card
     {
         public BattleClass BattleClass { get; set; }
         public string Name { get; set; }
@@ -12,7 +12,7 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Characters.Minions
         public int Damage { get; set; }
         public List<ITriggerableEffect> Passives { get; set; } = new List<ITriggerableEffect>();
 
-        public void Attack()
+        public override void Play()
         {
             throw new NotImplementedException();
         }

@@ -10,10 +10,10 @@ namespace Hearthstone.LethalCalculator.Models.Dtos
         public int Armour { get; set; }
         public WeaponDto Weapon { get; set; }
         public HeroPowerDto HeroPower { get; set; }
-        public List<string> Effects { get; set; } = new List<string>();
+        public List<string> Effects { get; set; } = [];
 
 
-        public int HandSize { get; set; }
-        public int CardsInDeck { get; set; }
+        public List<string> Hand { get; set; }
+        public List<string> Deck { get; set; }
     }
 }

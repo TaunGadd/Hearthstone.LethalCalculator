@@ -1,6 +1,8 @@
 ﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.Effects
 {
-    public class Effect
+    public abstract class Effect
     {
+        public abstract string Name { get; }
+        public string Text { get; set; }
     }
 }
