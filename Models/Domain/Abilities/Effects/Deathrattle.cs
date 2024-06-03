@@ -1,13 +1,13 @@
 ﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.Effects
 {
-    public class Deathrattle : Effect, ITriggerableEffect
+    public class Deathrattle : ComboEffect, ITriggerableEffect
     {
         public override string Name => nameof(Deathrattle);
-        private readonly Effect _effect;
+        public override Effect ResultantEffect { get; set; }
 
         public Deathrattle(Effect effect)
         {
-            _effect = effect;
+            ResultantEffect = effect;
         }
 
         public void Trigger()

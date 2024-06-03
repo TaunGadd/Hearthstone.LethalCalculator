@@ -1,13 +1,13 @@
 ﻿namespace Hearthstone.LethalCalculator.Models.Domain.Abilities.Effects
 {
-    public class BattleCry : Effect, ITriggerableEffect
+    public class BattleCry : ComboEffect, ITriggerableEffect
     {
         public override string Name => nameof(BattleCry);
-        private readonly Effect _effect;
+        public override Effect ResultantEffect { get; set; }
 
         public BattleCry(Effect effect)
         {
-            _effect = effect;
+            ResultantEffect = effect;
         }
 
         public void Trigger()

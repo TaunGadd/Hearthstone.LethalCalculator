@@ -25,20 +25,23 @@ public class EffectFactory : IEffectFactory
         return effect switch
         {
             nameof(Freeze) => new Freeze(),
+            _ => throw new NotSupportedException(),
         };
     }
 
-    private Effect CreateComboEffect(string[] effects)
+    private ComboEffect CreateComboEffect(string[] effects)
     {
-        var resultantEffect = effects[0] switch
+        var resultantEffect = effects[1] switch
         {
-            nameof(DoDamage) => new DoDamage()
+            nameof(DoDamage) => new DoDamage(),
+            _ => throw new NotSupportedException(),
         };
 
-        return effects[1] switch
+        return effects[0] switch
         {
             nameof(BattleCry) => new BattleCry(resultantEffect),
             nameof(Deathrattle) => new Deathrattle(resultantEffect),
+            _ => throw new NotSupportedException(),
         };
     }
 }
