@@ -10,7 +10,7 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Characters
         public int CurrentHealth { get; set; }
         public int MaxHealth { get; set; }
         public int Damage { get; set; }
-        public List<ITriggerableEffect> Passives { get; set; } = new List<ITriggerableEffect>();
+        public List<Effect> Passives { get; set; } = new List<Effect>();
 
         public override void Play()
         {
