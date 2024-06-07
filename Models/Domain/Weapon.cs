@@ -6,9 +6,9 @@ namespace Hearthstone.LethalCalculator.Models.Domain
     {
         public int Damage { get; set; }
         public int Durability { get; set; }
-        public List<ITriggerableEffect> Effects { get; set; } = new List<ITriggerableEffect>();
+        public List<Effect> Effects { get; set; } = new List<Effect>();
 
-        public override void Play()
+        public override void PlayCard()
         {
             throw new NotImplementedException();
         }

@@ -14,7 +14,7 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Abilities
             throw new NotImplementedException();
         }
 
-        public override void Play()
+        public override void PlayCard()
         {
             Cast();
         }

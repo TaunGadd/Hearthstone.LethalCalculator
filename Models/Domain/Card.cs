@@ -2,7 +2,7 @@
 {
     public abstract class Card
     {
-        public abstract void Play();
+        public abstract void PlayCard();
 
         public void Discard()
         {

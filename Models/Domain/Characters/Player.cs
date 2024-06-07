@@ -18,7 +18,7 @@ namespace Hearthstone.LethalCalculator.Models.Domain.Characters
         public List<Card> Hand { get; set; }
         public List<Card> Deck { get; set; }
 
-        public override void Play()
+        public override void PlayCard()
         {
             throw new NotImplementedException();
         }
